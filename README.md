@@ -1,5 +1,5 @@
 # About this repo
-Octopus admin dashboard portraited to Laravel 5.7
+Octopus admin dashboard ported to Laravel 5.7
 
 # About Octopus
 Free Bootstrap admin dashboard
