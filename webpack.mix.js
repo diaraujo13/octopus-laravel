@@ -18,6 +18,8 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
    .copy('resources/js/vendor/modernizr/modernizr.js', 'public/js/')
+   .copy('resources/images', 'public/images')
+   .copy('resources/js/vendor/font-awesome/fonts', 'public/fonts')
    .scripts([
       'resources/js/vendor/jquery/jquery.js',
       'resources/js/vendor/jquery-browser-mobile/jquery.browser.mobile.js',
@@ -33,6 +35,9 @@ mix.js('resources/js/app.js', 'public/js')
       'resources/js/vendor/bootstrap/css/bootstrap.css',
       'resources/js/vendor/font-awesome/css/font-awesome.css',
       'resources/js/vendor/magnific-popup/magnific-popup.css',
-      'resources/js/vendor/bootstrap-datepicker/css/datepicker3.css'
+      'resources/js/vendor/bootstrap-datepicker/css/datepicker3.css',
+      'resources/stylesheets/theme.css',
+      'resources/stylesheets/skins/default.css',
+      'resources/stylesheets/theme-custom.css'
    ], 'public/css/vendor.css')
-   .sass('resources/sass/app.scss', 'public/css');
+   .sass('resources/sass/theme.scss', 'public/css/app.css');

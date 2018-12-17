@@ -14,12 +14,11 @@
 
 		<!-- Web Fonts  -->
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+		<!-- Styles -->
+		<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="{{ asset('css/vendor.css') }}" />
-
-		<!-- Styles -->
-		<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 		<!-- Head Libs -->
 		<script src="{{ asset('js/modernizr.js') }}"></script>
@@ -30,7 +29,7 @@
 		<section class="body-sign">
 			<div class="center-sign">
 				<a href="/" class="logo pull-left">
-					<img src="asset/images/logo.png" height="54" alt="Porto Admin" />
+					<img src="/images/logo.png" height="54" alt="Porto Admin" />
 				</a>
 
 				<div class="panel panel-sign">
@@ -114,7 +113,7 @@
 		<!-- end: page -->
 
 		<!-- Vendor -->
-		<script src="{{asset('js/libs.js') }}"></script>
+		<script src="{{asset('js/lib.js') }}"></script>
 			
         
         <script>
