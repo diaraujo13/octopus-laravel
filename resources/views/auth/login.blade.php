@@ -38,6 +38,7 @@
 					</div>
 					<div class="panel-body">
 						<form action="{{ route('login') }}" method="post">
+						{{ csrf_field() }} 
 							<div class="form-group mb-lg">
 								<label>E-mail</label>
 								<div class="input-group input-group-icon">
