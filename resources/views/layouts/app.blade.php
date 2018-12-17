@@ -4,20 +4,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name="keywords" content="HTML5 Admin Template" />
+    <meta name="description" content="Porto Admin - Responsive HTML5 Template">
+    <meta name="author" content="okler.net">
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>@yield('title') </title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    
+   	<!-- Web Fonts  -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+    <!-- Style Libs -->
+	<link rel="stylesheet" href="{{ assets('js/vendor/bootstrap/css/bootstrap.css') }}" />
+    <link rel="stylesheet" href="{{ assets('js/vendor/font-awesome/css/font-awesome.css') }}" />
+    <link rel="stylesheet" href="{{ assets('js/vendor/magnific-popup/magnific-popup.css') }}" />
+    <link rel="stylesheet" href="{{ assets('js/vendor/bootstrap-datepicker/css/datepicker3.css') }}" />
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- Head Libs -->
+    <script src="{{ assets('js/vendor/modernizr/modernizr.js') }}"></script>
 </head>
 <body>
     <div id="app">
@@ -76,5 +91,19 @@
             @yield('content')
         </main>
     </div>
+
+    <script>
+    
+		<!-- Vendor -->
+		<script src="{{asset('js/libs.js') }}"></script>
+        
+        
+        <script>
+            console.log('successfull');
+        </script>
+        
+    </script>
+    
+    @yield('scripts')
 </body>
 </html>
