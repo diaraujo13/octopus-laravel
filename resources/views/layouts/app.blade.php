@@ -52,12 +52,8 @@
     <!-- Vendor -->
     <script src="{{asset('js/lib.js') }}"></script>
     
-    
-    <script>
-        console.log('successfull');
-    </script>
-        
-    
     @yield('scripts')
+
+
 </body>
 </html>
