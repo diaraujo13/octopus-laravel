@@ -43,7 +43,11 @@ mix.js('resources/js/app.js', 'public/js')
       'resources/js/vendor/jquery-sparkline/jquery.sparkline.js',
       'resources/js/vendor/raphael/raphael.js',
       'resources/js/vendor/morris/morris.js',
-      
+      'resources/js/vendor/bootstrap-tagsinput/bootstrap-tagsinput.js',
+      'resources/js/vendor/jquery-maskedinput/jquery.maskedinput.js',
+      'resources/js/vendor/select2/select2.js',
+      'resources/js/vendor/bootstrap-maxlength/bootstrap-maxlength.js',
+
       'resources/js/javascripts/theme.js',
       'resources/js/javascripts/theme.custom.js',
       'resources/js/javascripts/theme.init.js',
@@ -54,6 +58,8 @@ mix.js('resources/js/app.js', 'public/js')
       'resources/js/vendor/magnific-popup/magnific-popup.css',
       'resources/js/vendor/bootstrap-datepicker/css/datepicker3.css',
       'resources/js/vendor/pnotify/pnotify.custom.css',
+      'resources/js/vendor/bootstrap-tagsinput/bootstrap-tagsinput.css',
+      'resources/js/vendor/select2/select2.css',
 
       'resources/stylesheets/theme.css',
       'resources/stylesheets/skins/default.css',
