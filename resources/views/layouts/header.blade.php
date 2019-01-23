@@ -2,7 +2,7 @@
 <header class="header">
     <div class="logo-container">
         <a href="../" class="logo">
-            <img src="assets/images/logo.png" height="35" alt="JSOFT Admin" />
+            <img src="/images/logo.png" height="35" alt="JSOFT Admin" />
         </a>
         <div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
             <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
@@ -12,65 +12,11 @@
     <!-- start: search & user box -->
     <div class="header-right">
 
-        <form action="pages-search-results.html" class="search nav-form">
-            <div class="input-group input-search">
-                <input type="text" class="form-control" name="q" id="q" placeholder="Search...">
-                <span class="input-group-btn">
-                    <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                </span>
-            </div>
-        </form>
 
         <span class="separator"></span>
 
         <ul class="notifications">
-            <li>
-                <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
-                    <i class="fa fa-tasks"></i>
-                    <span class="badge">3</span>
-                </a>
-
-                <div class="dropdown-menu notification-menu large">
-                    <div class="notification-title">
-                        <span class="pull-right label label-default">3</span>
-                        Tasks
-                    </div>
-
-                    <div class="content">
-                        <ul>
-                            <li>
-                                <p class="clearfix mb-xs">
-                                    <span class="message pull-left">Generating Sales Report</span>
-                                    <span class="message pull-right text-dark">60%</span>
-                                </p>
-                                <div class="progress progress-xs light">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <p class="clearfix mb-xs">
-                                    <span class="message pull-left">Importing Contacts</span>
-                                    <span class="message pull-right text-dark">98%</span>
-                                </p>
-                                <div class="progress progress-xs light">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <p class="clearfix mb-xs">
-                                    <span class="message pull-left">Uploading something big</span>
-                                    <span class="message pull-right text-dark">33%</span>
-                                </p>
-                                <div class="progress progress-xs light mb-xs">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%;"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
+          
             <li>
                 <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
                     <i class="fa fa-envelope"></i>
@@ -134,13 +80,13 @@
             <li>
                 <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
                     <i class="fa fa-bell"></i>
-                    <span class="badge">3</span>
+                    <span class="badge">{{1}}</span>
                 </a>
 
                 <div class="dropdown-menu notification-menu">
                     <div class="notification-title">
-                        <span class="pull-right label label-default">3</span>
-                        Alerts
+                        <span class="pull-right label label-default">{{1}}</span>
+                        NOTIFICAÇÕES
                     </div>
 
                     <div class="content">
